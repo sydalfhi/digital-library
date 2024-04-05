@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Jakarta";
+  src: local("Jakarta-Light"),
+    url("../font/PlusJakartaSans-Light.ttf") format("tff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Jakarta";
+  src: local("Jakarta-Regular"),
+    url("../font/PlusJakartaSans-Regular.ttf") format("tff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Jakarta";
+  src: local("Jakarta-Medium"),
+    url("../font/PlusJakartaSans-Medium.ttf") format("tff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Jakarta";
+  src: local("Jakarta-Semibold"),
+    url("../font/PlusJakartaSans-SemiBold.ttf") format("tff");
+  font-weight: 600;
+  font-style: normal;
+}
